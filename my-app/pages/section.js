@@ -35,7 +35,7 @@ export default function Section(){
           </div>
         </div>
             <h1 className="font-bold text-4xl pb-20 text-center text-sky-900">" We are trusted by over 5000 companies."</h1>
-            <div className="bg-sky-900 pt-20">
+            <div className="bg-sky-900 py-20">
               <div className="lg:ml-10 text-center md:items-start mb-16 md:mb-0 items-center px-10">
             <p className="leading-relaxed uppercase text-amber-600 font-medium">what we offer</p>
             <h1 class="sm:text-2xl lg:text-5xl mb-4 font-bold text-white">We will help your <br /> business grow.</h1>
@@ -87,7 +87,7 @@ export default function Section(){
   </div>
   <div>
   <div class="container px-5 py-5 mx-auto  text-center">
-    <div class="flex flex-wrap -m-4">
+    <div class="flex flex-wrap -m-4 ">
       <div class="p-4 md:w-1/3">
         <div class="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
           <div class="flex items-center mb-3">
@@ -198,8 +198,8 @@ export default function Section(){
 
         <div className="w-full px-20 py-10 bg-sky-900">
           <p className="text-xl text-amber-700 font-semibold uppercase">Incredible Services</p>
-          <h1 className="text-9xl font-bold mb-10">We do a business of Satisfaction</h1>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus alias eligendi officia tempore. Officiis, doloribus iusto! Nostrum cupiditate libero eligendi. Sit fuga laudantium illo maxime laboriosam ipsa odio, accusantium doloremque.</p>
+          <h1 className="text-9xl font-bold mb-10 text-white">We do a business of Satisfaction</h1>
+          <p className="text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus alias eligendi officia tempore. Officiis, doloribus iusto! Nostrum cupiditate libero eligendi. Sit fuga laudantium illo maxime laboriosam ipsa odio, accusantium doloremque.</p>
           <button class="my-7 inline-flex text-white bg-sky-500 border-0 py-3 px-6 focus:outline-none hover:bg-sky-900 hover:{transition-dely: 500ms} rounded-full font-semibold text-lg">Discover More<FaArrowRight className="mt-1 mx-1 "/></button>
 
         </div>

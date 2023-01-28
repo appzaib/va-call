@@ -4,7 +4,7 @@ import { FaEnvelope, FaPhone } from 'react-icons/fa';
 
 export default function Header(){
 
-const headlinks = ["Home", "About", "Services", "Contact Us", "Blog" ]
+const headlinks = [{href:"/section", title:"Home"}, {href:"", title:"About"}, {href:"", title:"Services"}, {href:"/Contact", title:"Contact Us"}, {href:"/Help", title:"Help Center"} ]
 
 
     return(
@@ -12,7 +12,7 @@ const headlinks = ["Home", "About", "Services", "Contact Us", "Blog" ]
         <header className="text-black">
             <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
                 <div className="flex font-medium items-center text-gray-900 mb-4 md:mb-0 w-1/4">
-                    <Link href={""}>
+                    <Link href={"/section"}>
                         <img 
                         style={{ height: "50px" }}
                         src="https://templatekit.jegtheme.com/callerr/wp-content/uploads/sites/101/2021/05/logo.png" 
@@ -22,7 +22,7 @@ const headlinks = ["Home", "About", "Services", "Contact Us", "Blog" ]
                     <div className="w-1/2">
                         <ul className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
                             {headlinks.map((headlinks, i) => (
-                                <li className="mx-5 font-semibold"><Link href={""}>{headlinks}</Link></li>
+                                <li className="mx-5 font-semibold"><Link href={headlinks.href}>{headlinks.title}</Link></li>
                             ))}
                         </ul>
                     </div>
