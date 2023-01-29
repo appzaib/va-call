@@ -12,7 +12,7 @@ export default function Help(){
             <div className="flex-wrap flex-col text-center lg:px-40 pt-52">
                 <h1 className="lg:text-6xl md:text-2xl font-extrabold text-sky-700 lg:mt-96">Help Center</h1>
                 <p className="text-sky-700 py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem corrupti, quo id doloremque ipsum fuga modi omnis, non repellendus ducimus eaque deleniti quibusdam excepturi aliquid sequi odio similique possimus hic.</p>
-          <button class="duration-700 my-7 inline-flex text-white bg-sky-500 border-0 py-3 px-6 focus:outline-none hover:bg-sky-900 hover:{transition-dely: 500ms} rounded-full font-semibold text-lg">Discover More<FaArrowRight className="mt-1 mx-1 "/></button>
+          <button class="duration-700 my-7 inline-flex text-white bg-sky-500 border-0 py-3 px-6 focus:outline-none hover:bg-sky-900 hover:{transition-dely: 500ms} rounded-full font-semibold text-lg">Hire Us Now<FaArrowRight className="mt-1 mx-1 "/></button>
 
             </div>
             </div>  
