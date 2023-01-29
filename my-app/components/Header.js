@@ -4,7 +4,7 @@ import { FaEnvelope, FaPhone } from 'react-icons/fa';
 
 export default function Header(){
 
-const headlinks = [{href:"/section", title:"Home"}, {href:"/About", title:"About"}, {href:"", title:"Services"}, {href:"/Contact", title:"Contact Us"}, {href:"/Help", title:"Help Center"} ]
+const headlinks = [{href:"/section", title:"Home"}, {href:"/About", title:"About"}, {href:"/Contact", title:"Contact Us"}, {href:"/Help", title:"Help Center"} ]
 
 
     return(
