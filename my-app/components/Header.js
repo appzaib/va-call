@@ -1,5 +1,6 @@
 import Link from "next/link"
-import { FaEnvelope, FaPhone } from 'react-icons/fa';
+import { FaPhone } from 'react-icons/fa';
+import ColoredCircles from "./color";
 
 
 export default function Header(){
