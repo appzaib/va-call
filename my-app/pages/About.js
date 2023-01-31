@@ -11,15 +11,13 @@ export default function About(){
         <div className="w-full text-center">
             <h1 className="text-5xl py-32 font-semibold text-sky-900">About Us</h1>
         </div>
-        <div className="flex flex-wrap px-10 py-10 h-auto">
-            <div className="w-1/2">
-                <div>
-                    <img className="rounded" src="https://themes.webdevia.com/digitalo-creative-digital-agency-wordpress-theme/wp-content/uploads/2017/12/blog-3--1000x500.jpg" alt="Img" />
-                </div>
+        <div className="lg:flex lg:flex-wrap lg:px-10 py-10 h-auto">
+            <div className="lg:w-1/2">
+                    <img className="rounded object-cover" src="https://themes.webdevia.com/digitalo-creative-digital-agency-wordpress-theme/wp-content/uploads/2017/12/blog-3--1000x500.jpg" alt="Img" />
             </div>
-            <div className="w-1/2">
-                <div className="px-10">
-                <h1 className="text-4xl text-sky-900 font-bold">The Next Generation of the Development in Our DNA</h1>
+            <div className="lg:w-1/2">
+                <div className="lg:px-10">
+                <h1 className="lg:text-4xl md:text-2xl text-sky-900 font-bold">The Next Generation of the Development in Our DNA</h1>
                 <p className="text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit nobis velit recusandae a odit consequatur ad, ratione minima. Harum earum odit magnam asperiores qui dolores culpa accusamus doloribus sint maxime. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel consequatur provident aspernatur illum dignissimos eaque libero amet, dolore inventore quisquam accusamus obcaecati laborum nam explicabo a maiores cum placeat in!</p>
                 </div>
             </div>

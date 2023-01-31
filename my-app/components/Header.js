@@ -1,6 +1,5 @@
 import Link from "next/link"
 import { FaPhone } from 'react-icons/fa';
-import ColoredCircles from "./color";
 
 
 export default function Header(){
@@ -23,7 +22,7 @@ const headlinks = [{href:"/section", title:"Home"}, {href:"/About", title:"About
                     <div className="w-1/2">
                         <ul className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
                             {headlinks.map((headlinks, i) => (
-                                <li className="mx-5 font-semibold"><Link href={headlinks.href}>{headlinks.title}</Link></li>
+                                <li className="mx-5 hover:text-sky-400 font-semibold"><Link href={headlinks.href}>{headlinks.title}</Link></li>
                             ))}
                         </ul>
                     </div>

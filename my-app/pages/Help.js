@@ -7,7 +7,7 @@ export default function Help(){
 
     return(
         <>
-        <div className="h-1/2 bg-no-repeat items-center bg-cover"
+        <div className="h-1/2 bg-no-repeat items-center bg-cover bg-center sm:h-full"
         style={{backgroundImage: `url('https://preview.moxcreative.com/vocall/wp-content/uploads/sites/7/2022/02/call-center-1.jpg')`}}>
             <div className="flex-wrap flex-col text-center lg:px-40 pt-52">
                 <h1 className="lg:text-6xl md:text-2xl font-extrabold text-sky-700 lg:mt-96">Help Center</h1>
