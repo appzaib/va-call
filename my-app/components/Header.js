@@ -4,7 +4,7 @@ import { FaPhone } from 'react-icons/fa';
 
 export default function Header(){
 
-const headlinks = [{href:"/section", title:"Home"}, {href:"/About", title:"About"}, {href:"/Contact", title:"Contact Us"}, {href:"/Help", title:"Help Center"} ]
+const headlinks = [{href:"/", title:"Home"}, {href:"/About", title:"About"}, {href:"/Contact", title:"Contact Us"}, {href:"/Help", title:"Help Center"} ]
 
 
     return(
@@ -12,7 +12,7 @@ const headlinks = [{href:"/section", title:"Home"}, {href:"/About", title:"About
         <header className="text-black">
             <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
                 <div className="flex font-medium items-center text-gray-900 mb-4 md:mb-0 w-1/4">
-                    <Link href={"/section"}>
+                    <Link href={"/"}>
                         <img 
                         style={{ height: "50px" }}
                         src="https://templatekit.jegtheme.com/callerr/wp-content/uploads/sites/101/2021/05/logo.png" 

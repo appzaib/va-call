@@ -1,6 +1,7 @@
 {
   "hosting": {
     "public": "out",
+    "site": "va-call",
     "ignore": [
       "firebase.json",
       "**/.*",
