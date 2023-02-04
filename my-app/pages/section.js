@@ -200,7 +200,7 @@ export default function Section(){
 
         <div className="w-full px-20 py-10 bg-sky-900">
           <p className="text-xl text-amber-700 font-semibold uppercase">Incredible Services</p>
-          <h1 className="lg:text-9xl md:text-8xl sm:text-4xl font-bold mb-10 text-white">We do a business of Satisfaction</h1>
+          <h1 className="lg:text-9xl md:text-8xl sm:text-7xl font-bold mb-10 text-white">We do a business of Satisfaction</h1>
           <p className="text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus alias eligendi officia tempore. Officiis, doloribus iusto! Nostrum cupiditate libero eligendi. Sit fuga laudantium illo maxime laboriosam ipsa odio, accusantium doloremque.</p>
           <button class="my-7 inline-flex text-white bg-sky-500 border-0 py-3 px-6 focus:outline-none hover:duration-500 hover:bg-sky-900 hover:{transition-dely: 500ms} rounded-full font-semibold text-lg">Discover More<FaArrowRight className="mt-1 mx-1 "/></button>
 

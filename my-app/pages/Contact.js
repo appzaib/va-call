@@ -1,4 +1,4 @@
-import { FaEnvelope, FaMobileAlt, FaLocation, FaLocationArrow, FaRegClosedCaptioning, FaSearchLocation, } from "react-icons/fa";
+import { FaEnvelope, FaMobileAlt, FaLocation, FaLocationArrow, FaRegClosedCaptioning, FaSearchLocation, FaEnvelopeOpen, } from "react-icons/fa";
 import { useState } from "react";
 
 
@@ -12,30 +12,37 @@ export default function Contact(){
             <h1 className="text-5xl py-40 font-semibold text-sky-900">Contact Us</h1>
             <h1 className="text-4xl pt-20 font-semibold text-sky-900">Get In Touch</h1>
         </div>
-        <div className="container px-20 py-20 flex flex-wrap ">
-            <div className="flex h-20 md:w-full md:my-5 lg:w-1/3 flex-wrap hover:translate-y-20 duration-300 hover:cursor-pointer">
-                <FaEnvelope className="text-6xl text-sky-900"/>
-                <div className="pl-3">
-                <h1 className="flex-col uppercase text-lg font-semibold text-sky-800">email address</h1>
-                <p className="py-3">Abdullah@123</p>
-                </div>
-            </div>
-            
-            <div className="flex h-20 md:w-full md:my-5 lg:w-1/3 flex-wrap hover:translate-y-20 duration-300 hover:cursor-pointer">
-                <FaMobileAlt className="text-6xl text-sky-900"/>
-                <div className="pl-3">
-                <h1 className="flex-col uppercase text-lg font-semibold text-sky-800">mobile no</h1>
-                <p className="py-3">03123456789</p>
-                </div>
-            </div>
-            <div className="flex h-20 md:w-full md:my-5 lg:w-1/3 flex-wrap hover:translate-y-20 duration-300 hover:cursor-pointer">
-                <FaSearchLocation className="text-6xl text-sky-900"/>
-                <div className="pl-3">
-                <h1 className="flex-col uppercase text-lg font-semibold text-sky-800">our address</h1>
-                <p className="py-3">Rafyl bank London</p>
-                </div>
-            </div>
+        <div className="container mx-auto px-4  max-w-full flex flex-wrap items-center text-center py-10">
+     <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/3 hover:translate-x-20 duration-1000 hover:cursor-pointer inline-flex mx-auto">
+        <div className="items-center justify-center inline-flex ">
+        <FaEnvelopeOpen className="text-6xl text-sky-900"/>
+        <div>
+        <h1 className="uppercase text-lg font-semibold text-sky-800">email address</h1>
+        <p cslassName="py-3">Abdullah@123</p>
         </div>
+        </div>
+    </div>
+    
+    <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/3 hover:translate-x-20 duration-1000 hover:cursor-pointer inline-flex mx-auto">
+        <div className="items-center justify-center inline-flex text-center py-4">
+        <FaMobileAlt className="text-6xl text-sky-900"/>
+        <div>
+        <h1 className="uppercase text-lg font-semibold text-sky-800">Phone No</h1>
+        <p cslassName="py-3">03123456789</p>
+        </div>
+        </div>
+    </div>
+     <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/3 hover:translate-x-20 duration-1000 hover:cursor-pointer inline-flex mx-auto">
+        <div className="items-center justify-center inline-flex ">
+        <FaSearchLocation className="text-6xl text-sky-900"/>
+        <div className="px-2">
+        <h1 className="uppercase text-lg font-semibold text-sky-800">our address</h1>
+        <p cslassName="py-3">Street 1 Rafyl <br /> bank London</p>
+        </div>
+        </div>
+    </div>
+</div>
+
 
         <div class="justify-center flex">
 <div class="w-full my-5 mx-auto flex flex-col items-center md:flex-row bg-cyan-400">
