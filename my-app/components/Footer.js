@@ -10,7 +10,7 @@ export default function Footer(){
 
     return(
 <>
-  <div class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+  <div class="px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
     <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
       <Link href={""} class="flex font-medium items-center md:justify-start justify-center text-gray-900 ">
        <img className="h-12" src="https://templatekit.jegtheme.com/callerr/wp-content/uploads/sites/101/2021/05/logo.png" alt="Img" />
@@ -57,7 +57,7 @@ export default function Footer(){
     </div>
   </div>
   <div class="bg-gray-100">
-    <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
+    <div class="mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
       <p class="text-gray-500 text-sm text-center sm:text-left">© 2023 VA Call —
         <Link href={""} class="text-gray-600 ml-1">@Abdullah Khan</Link>
       </p>

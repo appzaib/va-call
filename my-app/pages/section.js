@@ -7,7 +7,7 @@ export default function Section(){
     return(
       <>
         <div className="bg-sky-700">
-        <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center ">
+        <div class="mx-auto flex px-5 py-24 md:flex-row flex-col items-center ">
     <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center">
       <h1 class="md:text-4xl lg:text-8xl mb-4 font-semibold text-white">Connecting World for Better Solving.</h1>
       <p class="mb-8 leading-relaxed text-white font-bold py-6">Improve customer experience by listening and acting on expert's feedback</p>
@@ -20,7 +20,7 @@ export default function Section(){
     </div>
   </div>
         </div>
-        <div className="flex flex-wrap container py-20 lg:px-20 md:px-0">
+        <div className="flex flex-wrap py-20 lg:px-20 md:px-0">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 ">
             <img
             className="object-cover object-center rounded "
@@ -46,7 +46,7 @@ export default function Section(){
 
             
   <div>
-  <div class="container px-5 py-5 mx-auto  text-center">
+  <div class=" px-5 py-5 mx-auto  text-center">
     <div class="flex flex-wrap -m-4">
       <div class="p-4 md:w-1/3">
         <div class="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
@@ -88,7 +88,7 @@ export default function Section(){
   </div>
   </div>
   <div>
-  <div class="container px-5 py-5 mx-auto  text-center">
+  <div class=" px-5 py-5 mx-auto  text-center">
     <div class="flex flex-wrap -m-4 ">
       <div class="p-4 md:w-1/3">
         <div class="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
@@ -134,7 +134,7 @@ export default function Section(){
           </div>
           
               </div>
-   <div className="flex flex-wrap container py-20 lg:px-20 md:px-0">
+   <div className="flex flex-wrap py-20 lg:px-20 md:px-0">
           <div className="lg:max-w-lg lg:w-full md:w-1/2 ">
             <img
             className="object-cover object-center rounded "
@@ -169,7 +169,7 @@ export default function Section(){
           </div>
         </div>
 
-        <div className="flex flex-wrap container py-20 lg:px-20 md:px-0">
+        <div className="flex flex-wrap py-20 lg:px-20 md:px-0">
           
           <div className="lg:ml-10 lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-wrap md:items-start md:text-left mb-16 md:mb-0 items-center px-10">
             <h1 class="sm:text-2xl lg:text-5xl mb-4 font-bold text-sky-900">We are focused on making your process a success</h1>

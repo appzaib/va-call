@@ -9,7 +9,7 @@ const headlinks = [{href:"/", title:"Home"}, {href:"/About", title:"About"}, {hr
     return(
         <>
         <header className="text-black">
-            <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+            <div className="mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
                 <div className="flex font-medium items-center text-gray-900 mb-4 md:mb-0 w-full md:w-1/4">
                     <Link href={"/"}>
                         <img 
@@ -25,7 +25,7 @@ const headlinks = [{href:"/", title:"Home"}, {href:"/About", title:"About"}, {hr
                         ))}
                     </ul>
                 </div>
-                <div className="w-full md:w-1/4 inline-flex items-center">
+                <div className="w-full md:w-1/4 inline-flex justify-center">
                     <Link href={"."} className="text-right font-semibold bg-yellow-300 border-0 px-5 py-3 focus:outline-none hover:bg-yellow-400 rounded mt-4 md:mt-0 block md:inline-block"><FaPhone className="mr-4 inline-flex"/>Talk to Expert</Link>
                 </div>
             </div>
