@@ -7,9 +7,9 @@ export default function Section(){
     return(
       <>
         <div className="bg-sky-700">
-        <div class="mx-auto flex px-5 py-24 md:flex-row flex-col items-center ">
-    <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center">
-      <h1 class="md:text-4xl lg:text-8xl mb-4 font-semibold text-white">Connecting World for Better Solving.</h1>
+        <div class="mx-auto flex px-5 py-24 md:flex-row flex-col items-center justify-center">
+    <div class="md:w-1/2 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center ">
+      <h1 class="md:text-4xl lg:text-6xl mb-4 font-semibold text-white">Connecting World for Better Solving.</h1>
       <p class="mb-8 leading-relaxed text-white font-bold py-6">Improve customer experience by listening and acting on expert's feedback</p>
       <div class="flex justify-center">
         <button class="inline-flex text-white hover:duration-500 bg-sky-500 border-0 py-3 px-6 focus:outline-none hover:bg-transparent hover:transition-transform  rounded-xl text-lg font-semibold">Start Free Trial<FaArrowRight className="mt-1 mx-1 "/></button>
@@ -20,17 +20,21 @@ export default function Section(){
     </div>
   </div>
         </div>
-        <div className="flex flex-wrap py-20 lg:px-20 md:px-0">
-          <div className="lg:max-w-lg lg:w-full md:w-1/2 ">
+        <div className="flex flex-wrap py-20 flex-col lg:flex-row justify-center ">
+          <div className="lg:w-1/2 ">
             <img
             className="object-cover object-center rounded "
              src="https://preview.moxcreative.com/vocall/wp-content/uploads/sites/7/2022/02/call-center-5.jpg" alt="Img" />
           </div>
-          <div className="lg:ml-10 lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-wrap md:items-start md:text-left mb-16 md:mb-0 items-center px-10">
+          <div className="lg:flex-grow flex flex-wrap flex-col justify-center px-10 lg:w-1/2">
             <p className="leading-relaxed uppercase font-medium text-amber-600">who we are</p>
             <h1 class="sm:text-2xl lg:text-5xl mb-4 font-bold text-sky-900">We communicate to get your business to the next level.</h1>
             <p className="lg:text-lg md:text-base mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, hic voluptates quis laborum et repudiandae.</p>
-          <button class="inline-flex text-white bg-sky-500 border-0 py-3 px-6 focus:outline-none hover:bg-sky-900 hover:duration-500 rounded-full font-semibold text-lg">Discover More<FaArrowRight className="mt-1 mx-1 "/></button>
+            
+            <div>
+
+            <button class="inline-flex text-white bg-sky-500 border-0 py-3 px-6 focus:outline-none hover:bg-sky-900 hover:duration-500 rounded-full font-semibold text-lg">Discover More<FaArrowRight className="mt-1 mx-1 "/></button>
+            </div>
 
           </div>
         </div>
@@ -169,22 +173,29 @@ export default function Section(){
           </div>
         </div>
 
-        <div className="flex flex-wrap py-20 lg:px-20 md:px-0">
+        <div className="flex flex-wrap py-20 lg:px-20 justify-center">
           
-          <div className="lg:ml-10 lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-wrap md:items-start md:text-left mb-16 md:mb-0 items-center px-10">
-            <h1 class="sm:text-2xl lg:text-5xl mb-4 font-bold text-sky-900">We are focused on making your process a success</h1>
-            <p className="lg:text-lg md:text-base mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, hic voluptates quis laborum et repudiandae.</p>
+          <div className="flex flex-wrap flex-col md:items-start md:text-left mb-16 px-10 lg:w-1/2 justify-center">
+            <h1 class="sm:text-2xl lg:text-5xl font-bold text-sky-900">We are focused on making your process a success</h1>
+            <p className="lg:text-lg md:text-base py-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, hic voluptates quis laborum et repudiandae.</p>
+          <div>
           <button class="inline-flex text-white bg-sky-500 border-0 py-3 px-6 focus:outline-none hover:duration-500  hover:bg-sky-900 hover:{transition-dely: 500ms} rounded-full font-semibold text-lg">Discover More<FaArrowRight className="mt-1 mx-1 "/></button>
-
           </div>
-          <div className="lg:max-w-lg lg:w-full md:w-1/2 p-5">
-            <div className="">
-              <h1 className="text-3xl font-bold m-3"><FaDollarSign className="mr-2 inline-flex rounded-lg p-1 bg-indigo-400 text-amber-400"/>Save Time And Money</h1>
+          </div>
+          <div className="lg:w-1/2 p-5">
+            <div className="flex flex-wrap items-center py-2 justify-center ">
+              <FaDollarSign className="lg:text-8xl text-6xl mr-2 inline-flex rounded-lg p-1 bg-indigo-400 text-amber-400"/>
+              <div className="">
+              <h1 className="text-3xl font-bold m-3">Save Time And Money</h1>
                 <p className="m-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde, blanditiisris id enim!</p>              
+              </div>
             </div>
-            <div className="">
-              <h1 className="text-3xl font-bold m-3"><FaBalanceScaleRight className="mr-2 inline-flex rounded-lg p-1 bg-indigo-400 text-black"/>Boost Sales Conversions</h1>
+            <div className="flex flex-wrap items-center py-2 justify-center ">
+              <FaBalanceScaleRight className="lg:text-8xl text-6xl mr-2 inline-flex rounded-lg p-1 bg-indigo-400 text-black"/>
+              <div className="">
+              <h1 className="text-3xl font-bold m-3">Boost Sales Conversions</h1>
                 <p className="m-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde, blanditiisris id enim!</p>
+              </div>
             </div>
             <div className="">
               <h1 className="text-3xl font-bold m-3"><FaHeadset className="mr-2 inline-flex rounded-lg p-1 bg-indigo-400 text-fuchsia-700"/>Recruit Better Talent</h1>
@@ -198,9 +209,9 @@ export default function Section(){
             </div>
         </div>
 
-        <div className="w-full px-20 py-10 bg-sky-900">
+        <div className="w-full px-20 py-10 bg-sky-900 text-center">
           <p className="text-xl text-amber-700 font-semibold uppercase">Incredible Services</p>
-          <h1 className="lg:text-9xl md:text-8xl sm:text-7xl font-bold mb-10 text-white">We do a business of Satisfaction</h1>
+          <h1 className="lg:text-7xl md:text-6 sm:text-5xl font-semibold mb-10 text-white">We do a business of Satisfaction</h1>
           <p className="text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus alias eligendi officia tempore. Officiis, doloribus iusto! Nostrum cupiditate libero eligendi. Sit fuga laudantium illo maxime laboriosam ipsa odio, accusantium doloremque.</p>
           <button class="my-7 inline-flex text-white bg-sky-500 border-0 py-3 px-6 focus:outline-none hover:duration-500 hover:bg-sky-900 hover:{transition-dely: 500ms} rounded-full font-semibold text-lg">Discover More<FaArrowRight className="mt-1 mx-1 "/></button>
 

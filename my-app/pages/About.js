@@ -9,21 +9,21 @@ export default function About(){
     return(
         <div className="bg-gray-200">
         <div className="w-full text-center">
-            <h1 className="text-5xl py-32 font-semibold text-sky-900">About Us</h1>
+            <h1 className="text-5xl py-16 font-semibold text-sky-900">About Us</h1>
         </div>
         <div className="lg:flex lg:flex-wrap lg:px-10 py-10 h-auto">
             <div className="lg:w-1/2">
                     <img className="rounded object-cover" src="https://themes.webdevia.com/digitalo-creative-digital-agency-wordpress-theme/wp-content/uploads/2017/12/blog-3--1000x500.jpg" alt="Img" />
             </div>
-            <div className="lg:w-1/2">
+            <div className="lg:w-1/2 flex flex-col justify-center">
                 <div className="lg:px-10">
                 <h1 className="lg:text-4xl md:text-2xl text-sky-900 font-bold">The Next Generation of the Development in Our DNA</h1>
-                <p className="text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit nobis velit recusandae a odit consequatur ad, ratione minima. Harum earum odit magnam asperiores qui dolores culpa accusamus doloribus sint maxime. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel consequatur provident aspernatur illum dignissimos eaque libero amet, dolore inventore quisquam accusamus obcaecati laborum nam explicabo a maiores cum placeat in!</p>
+                <p className="text-lg px-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit nobis velit recusandae a odit consequatur ad, ratione minima. Harum earum odit magnam asperiores qui dolores culpa accusamus doloribus sint maxime. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel consequatur provident aspernatur illum dignissimos eaque libero amet, dolore inventore quisquam accusamus obcaecati laborum nam explicabo a maiores cum placeat in!</p>
                 </div>
             </div>
         </div>
         <div className="w-full py-10">
-            <h1 className="font-bold text-6xl text-center text-sky-900">We completed +120 Project <br /> Yearly</h1>
+            <h1 className="font-bold text-6xl text-center text-sky-900">We complete +120 Project <br /> Yearly</h1>
             <p className="text-center text-lg py-3">We are fastest growing digital agency that with strong business idea and ethics. <br /> Check our info with some awesome numbers.</p>
         </div>
 
@@ -42,13 +42,13 @@ export default function About(){
             <h3 class="text-gray-500 mb-3">Front End Web Developer</h3>
             <p class="mb-4">DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
             <span class="inline-flex">
-              <Link href={""} class="text-gray-500">
+              <Link href={""} class="text-gray-500 hover:text-gray-600">
                <FaFacebook/>              
               </Link>
-              <Link href={""} class="ml-2 text-gray-500">
+              <Link href={""} class="ml-2 text-gray-500 hover:text-gray-600">
                <FaTwitter/>
               </Link>
-              <Link href={""} class="ml-2 text-gray-500">
+              <Link href={""} class="ml-2 text-gray-500 hover:text-gray-600">
                 <FaInstagram/>
               </Link>
             </span>
@@ -63,13 +63,13 @@ export default function About(){
             <h3 class="text-gray-500 mb-3">Front End Web Developer</h3>
             <p class="mb-4">DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
             <span class="inline-flex">
-              <Link href={""} class="text-gray-500">
+              <Link href={""} class="text-gray-500 hover:text-gray-600">
                <FaFacebook/>              
               </Link>
-              <Link href={""} class="ml-2 text-gray-500">
+              <Link href={""} class="ml-2 text-gray-500 hover:text-gray-600">
                 <FaTwitter/>
               </Link>
-              <Link href={""} class="ml-2 text-gray-500">
+              <Link href={""} class="ml-2 text-gray-500 hover:text-gray-600">
                 <FaInstagram/>
               </Link>
             </span>
@@ -84,14 +84,14 @@ export default function About(){
             <h3 class="text-gray-500 mb-3">Back End Web Developer</h3>
             <p class="mb-4">DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
             <span class="inline-flex">
-              <Link href={""} class="text-gray-500">
+              <Link href={""} class="text-gray-500 hover:text-gray-600">
                 <FaFacebook/>
               </Link>
-              <Link href={""} class="ml-2 text-gray-500">
+              <Link href={""} class="ml-2 text-gray-500 hover:text-gray-600">
                 <FaTwitter/>
 
               </Link>
-              <Link href={""} class="ml-2 text-gray-500">
+              <Link href={""} class="ml-2 text-gray-500 hover:text-gray-600">
                <FaInstagram/>
               </Link>
             </span>
@@ -106,16 +106,16 @@ export default function About(){
             <h3 class="text-gray-500 mb-3">Full Stack Developer</h3>
             <p class="mb-4">DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
             <span class="inline-flex">
-              <Link href={""} class="text-gray-500">
+              <Link href={""} class="text-gray-500 hover:text-gray-600">
                 <FaFacebook/>
 
               
               </Link>
-              <Link href={""} class="ml-2 text-gray-500">
+              <Link href={""} class="ml-2 text-gray-500 hover:text-gray-600">
                <FaTwitter/>
                
               </Link>
-              <Link href={""} class="ml-2 text-gray-500">
+              <Link href={""} class="ml-2 text-gray-500 hover:text-gray-600">
                <FaInstagram/>                               
               </Link>
             </span>

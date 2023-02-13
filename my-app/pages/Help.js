@@ -11,7 +11,7 @@ export default function Help(){
         style={{backgroundImage: `url('https://preview.moxcreative.com/vocall/wp-content/uploads/sites/7/2022/02/call-center-1.jpg')`}}>
             <div className="flex-wrap flex-col text-center lg:px-40 pt-52">
                 <h1 className="lg:text-6xl md:text-2xl font-extrabold text-sky-700 lg:mt-96">Help Center</h1>
-                <p className="text-sky-700 py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem corrupti, quo id doloremque ipsum fuga modi omnis, non repellendus ducimus eaque deleniti quibusdam excepturi aliquid sequi odio similique possimus hic.</p>
+                <p className="text-sky-700 py-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem corrupti, quo id doloremque ipsum fuga modi omnis,  non repellendus ducimus eaque deleniti <br />quibusdam excepturi aliquid sequi odio similique possimus hic.</p>
           <button class="duration-700 my-7 inline-flex text-white bg-sky-500 border-0 py-3 px-6 focus:outline-none hover:bg-sky-900 hover:{transition-dely: 500ms} rounded-full font-semibold text-lg">Hire Us Now<FaArrowRight className="mt-1 mx-1 "/></button>
 
             </div>
@@ -20,10 +20,10 @@ export default function Help(){
 
                 
 
-             <div className="flex flex-wrap container py-20 lg:px-20 md:px-0">
+             <div className="flex flex-wrap lg:flex-row flex-col items-center py-20">
           
-          <div className=" lg:flex-grow md:w-1/2 lg:w-2/3  flex flex-wrap md:items-start md:text-left mb-16 md:mb-0 items-center px-10">
-            <div className="lg:ml-10 lg:pr-24 md:pr-16">
+          <div className=" lg:w-1/2 md:w-1/2 flex flex-wrap flex-col md:items-start md:text-left mb-16 md:mb-0 items-center px-10">
+            <div className="">
             <h1 class="sm:text-2xl lg:text-5xl mb-4 font-bold text-sky-900">What do you need help with?</h1>
 
             </div>
@@ -61,9 +61,9 @@ export default function Help(){
 
             </div>
           </div>
-          <div className="lg:max-w-lg lg:w-1/3 md:w-1/2 ">
+          <div className="lg:w-1/2 items-center">
             <img
-            className="object-cover object-center rounded "
+            className=""
              src="https://preview.moxcreative.com/vocall/wp-content/uploads/sites/7/2022/02/img_7.png" alt="Img" />
           </div>
         </div>
