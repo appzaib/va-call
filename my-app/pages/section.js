@@ -29,7 +29,7 @@ export default function Section(){
           <div className="lg:flex-grow flex flex-wrap flex-col justify-center px-10 lg:w-1/2">
             <p className="leading-relaxed uppercase font-medium text-amber-600">who we are</p>
             <h1 class="sm:text-2xl lg:text-5xl mb-4 font-bold text-sky-900">We communicate to get your business to the next level.</h1>
-            <p className="lg:text-lg md:text-base mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, hic voluptates quis laborum et repudiandae.</p>
+            <p className="lg:text-lg md:text-base mb-4">Strategic planning and innovation can propel a business to new heights.</p>
             
             <div>
 
@@ -62,7 +62,7 @@ export default function Section(){
             <h2 class="text-sky-900 text-2xl font-medium">Call Center</h2>
           </div>
           <div class="flex-grow">
-            <p class="leading-relaxed text-base">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et, veritatis! Facilis nihil asperiores optio fugit, illo quidem dolores officia repellendus dolore, omnis sed nulla provident magnam nam sapiente delectus! Dolorem?</p>
+            <p class="leading-relaxed text-base">We provide exceptional customer service, promptly handle inquiries, and ensure customer satisfaction through active listening, problem-solving, and effective communication skills.</p>
           </div>
         </div>
       </div>
@@ -73,7 +73,7 @@ export default function Section(){
             <h2 class="text-sky-900 text-2xl font-medium">Debt Collection</h2>
           </div>
           <div class="flex-grow">
-            <p class="leading-relaxed text-base">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et, veritatis! Facilis nihil asperiores optio fugit, illo quidem dolores officia repellendus dolore, omnis sed nulla provident magnam nam sapiente delectus! Dolorem?</p>
+            <p class="leading-relaxed text-base">As a debt collection agent, we work to recover unpaid debts and improve cash flow for businesses, while maintaining ethical and legal standards and preserving customer relationships.</p>
           </div>
         </div>
       </div>
@@ -84,7 +84,7 @@ export default function Section(){
             <h2 class="text-sky-900 text-2xl font-medium">Inbound Requests</h2>
           </div>
           <div class="flex-grow">
-            <p class="leading-relaxed text-base">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et, veritatis! Facilis nihil asperiores optio fugit, illo quidem dolores officia repellendus dolore, omnis sed nulla provident magnam nam sapiente delectus! Dolorem?</p>
+            <p class="leading-relaxed text-base">As an inbound call center representatives, we provide prompt and courteous service, efficiently handle customer inquiries, and resolve issues to ensure customer satisfaction and loyalty.</p>
           </div>
         </div>
       </div>
@@ -101,7 +101,7 @@ export default function Section(){
             <h2 class="text-sky-900 text-2xl font-medium">Customer Support</h2>
           </div>
           <div class="flex-grow">
-            <p class="leading-relaxed text-base">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et, veritatis! Facilis nihil asperiores optio fugit, illo quidem dolores officia repellendus dolore, omnis sed nulla provident magnam nam sapiente delectus! Dolorem?</p>
+            <p class="leading-relaxed text-base">Our call center representatives provide top-quality customer support through timely, accurate, and friendly service, helping to resolve issues and ensure customer satisfaction with your products or services.</p>
           </div>
         </div>
       </div>
@@ -112,7 +112,7 @@ export default function Section(){
             <h2 class="text-sky-900 text-2xl font-medium">Virtual Assistance</h2>
           </div>
           <div class="flex-grow">
-            <p class="leading-relaxed text-base">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et, veritatis! Facilis nihil asperiores optio fugit, illo quidem dolores officia repellendus dolore, omnis sed nulla provident magnam nam sapiente delectus! Dolorem?</p>
+            <p class="leading-relaxed text-base">As virtual assistants, we provide comprehensive call center services including customer support, technical assistance, order processing, and appointment scheduling to enhance your business operations.</p>
           </div>
         </div>
       </div>
@@ -123,7 +123,7 @@ export default function Section(){
             <h2 class="text-sky-900 text-2xl font-medium">Live Chat Support</h2>
           </div>
           <div class="flex-grow">
-            <p class="leading-relaxed text-base">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et, veritatis! Facilis nihil asperiores optio fugit, illo quidem dolores officia repellendus dolore, omnis sed nulla provident magnam nam sapiente delectus! Dolorem?</p>
+            <p class="leading-relaxed text-base">Our live chat support services provide instant, personalized assistance to your customers, helping them resolve their issues quickly and efficiently, leading to increased customer satisfaction and loyalty.</p>
           </div>
         </div>
       </div>
@@ -161,11 +161,11 @@ export default function Section(){
             <div className="flex flex-wrap">
               <div className="w-1/2">
                 <h1 className="text-xl font-semibold m-3"><FaCheck className="mr-2 inline-flex rounded-lg p-1 bg-indigo-400 text-white"/>100% Guarantee Satisfaction</h1>
-                <p className="m-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus commodi .</p>
+                <p className="m-3">We strive to provide exceptional customer service with a 100% satisfaction guarantee.</p>
               </div>
               <div className="w-1/2">
                 <h1 className="text-xl font-semibold m-3"><FaCheck className="mr-2 inline-flex rounded-lg p-1 bg-indigo-400 text-white"/>24/7 Support</h1>
-                <p className="m-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde, blanditiisris id enim!</p>
+                <p className="m-3">We provide round-the-clock customer support services with a team of dedicated call center.</p>
               </div>
 
             </div>
@@ -177,34 +177,30 @@ export default function Section(){
           
           <div className="flex flex-wrap flex-col md:items-start md:text-left mb-16 px-10 lg:w-1/2 justify-center">
             <h1 class="sm:text-2xl lg:text-5xl font-bold text-sky-900">We are focused on making your process a success</h1>
-            <p className="lg:text-lg md:text-base py-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, hic voluptates quis laborum et repudiandae.</p>
+            <p className="lg:text-lg md:text-base py-10">At our core, we are driven by a passion for making your process a success, leveraging our expertise and resources to deliver measurable results.</p>
           <div>
           <button class="inline-flex text-white bg-sky-500 border-0 py-3 px-6 focus:outline-none hover:duration-500  hover:bg-sky-900 hover:{transition-dely: 500ms} rounded-full font-semibold text-lg">Discover More<FaArrowRight className="mt-1 mx-1 "/></button>
           </div>
           </div>
           <div className="lg:w-1/2 p-5">
-            <div className="flex flex-wrap items-center py-2 justify-center ">
-              <FaDollarSign className="lg:text-8xl text-6xl mr-2 inline-flex rounded-lg p-1 bg-indigo-400 text-amber-400"/>
-              <div className="">
-              <h1 className="text-3xl font-bold m-3">Save Time And Money</h1>
-                <p className="m-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde, blanditiisris id enim!</p>              
-              </div>
-            </div>
-            <div className="flex flex-wrap items-center py-2 justify-center ">
-              <FaBalanceScaleRight className="lg:text-8xl text-6xl mr-2 inline-flex rounded-lg p-1 bg-indigo-400 text-black"/>
-              <div className="">
-              <h1 className="text-3xl font-bold m-3">Boost Sales Conversions</h1>
-                <p className="m-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde, blanditiisris id enim!</p>
-              </div>
+          <div className="">
+              <h1 className="text-3xl font-bold m-3"><FaDollarSign className="mr-2 inline-flex rounded-lg p-1 bg-indigo-400 text-fuchsia-700"/>Save Time And Money</h1>
+                <p className="m-3">Customers can save time and money by leveraging our efficient call center services.</p>
+
             </div>
             <div className="">
+              <h1 className="text-3xl font-bold m-3"><FaBalanceScaleRight className="mr-2 inline-flex rounded-lg p-1 bg-indigo-400 text-fuchsia-700"/>Boost Sales Conversions</h1>
+                <p className="m-3">Boost your sales conversions with our customer-centric call center solutions today.</p>
+
+            </div>            
+            <div className="">
               <h1 className="text-3xl font-bold m-3"><FaHeadset className="mr-2 inline-flex rounded-lg p-1 bg-indigo-400 text-fuchsia-700"/>Recruit Better Talent</h1>
-                <p className="m-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde, blanditiisris id enim!</p>
+                <p className="m-3">Our call center can help you recruit top talent, improving your hiring process.</p>
 
             </div>
             <div className="">
               <h1 className="text-3xl font-bold m-3"><FaBars className="mr-2 inline-flex rounded-lg p-1 bg-indigo-400 text-white"/>Scale Your Business</h1>
-                <p className="m-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde, blanditiisris id enim!</p>
+                <p className="m-3">Partnering with our call center can help scale your business operations.</p>
             </div>
             </div>
         </div>
@@ -212,7 +208,7 @@ export default function Section(){
         <div className="w-full px-20 py-10 bg-sky-900 text-center">
           <p className="text-xl text-amber-700 font-semibold uppercase">Incredible Services</p>
           <h1 className="lg:text-7xl md:text-6 sm:text-5xl font-semibold mb-10 text-white">We do a business of Satisfaction</h1>
-          <p className="text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus alias eligendi officia tempore. Officiis, doloribus iusto! Nostrum cupiditate libero eligendi. Sit fuga laudantium illo maxime laboriosam ipsa odio, accusantium doloremque.</p>
+          <p className="text-white">Customer satisfaction is at the heart of everything we do, and we strive to exceed expectations by delivering exceptional service and quality products at all times.</p>
           <button class="my-7 inline-flex text-white bg-sky-500 border-0 py-3 px-6 focus:outline-none hover:duration-500 hover:bg-sky-900 hover:{transition-dely: 500ms} rounded-full font-semibold text-lg">Discover More<FaArrowRight className="mt-1 mx-1 "/></button>
 
         </div>

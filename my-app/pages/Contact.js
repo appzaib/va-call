@@ -12,36 +12,38 @@ export default function Contact(){
             <h1 className="text-5xl py-10 font-semibold text-sky-900">Contact Us</h1>
             <h1 className="text-4xl pt-20 font-semibold text-sky-900">Get In Touch</h1>
         </div>
-        <div className="container mx-auto px-4  max-w-full flex flex-wrap items-center text-center py-10">
-     <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/3 hover:cursor-pointer inline-flex mx-auto">
-        <div className="items-center justify-center inline-flex ">
-        <FaEnvelopeOpen className="text-6xl text-sky-900 hover:-translate-y-5 duration-500"/>
-        <div className="px-2">
-        <h1 className="uppercase text-lg font-semibold text-sky-800">email address</h1>
-        <p cslassName="py-3">Abdullah@123</p>
-        </div>
-        </div>
+        <div className="container mx-auto px-4 max-w-full flex flex-wrap py-10 justify-center items-center">
+  <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/3 hover:cursor-pointer mx-auto flex-col">
+    <div className="items-center justify-center">
+      <FaEnvelopeOpen className="text-6xl text-sky-900 hover:-translate-y-5 duration-500" />
+      <div className="px-2">
+        <h1 className="uppercase text-lg font-semibold text-sky-800 mt-2">email address</h1>
+        <p className="py-3">Abdullah@123</p>
+      </div>
     </div>
-    
-    <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/3  inline-flex mx-auto">
-        <div className="items-center justify-center inline-flex text-center py-4">
-        <FaMobileAlt className="text-6xl text-sky-900 hover:-translate-y-5 duration-500 hover:cursor-pointer"/>
-        <div>
-        <h1 className="uppercase text-lg font-semibold text-sky-800">Phone No</h1>
-        <p cslassName="py-3">03123456789</p>
-        </div>
-        </div>
+  </div>
+
+  <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/3 hover:cursor-pointer mx-auto flex-col">
+    <div className="items-center justify-center">
+      <FaMobileAlt className="text-6xl text-sky-900 hover:-translate-y-5 duration-500 hover:cursor-pointer" />
+      <div>
+        <h1 className="uppercase text-lg font-semibold text-sky-800 mt-2">Phone No</h1>
+        <p className="py-3">03123456789</p>
+      </div>
     </div>
-     <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/3 inline-flex mx-auto">
-        <div className="items-center justify-center inline-flex ">
-        <FaSearchLocation className="text-6xl text-sky-900 hover:-translate-y-5 duration-500 hover:cursor-pointer"/>
-        <div className="px-2">
-        <h1 className="uppercase text-lg font-semibold text-sky-800">our address</h1>
-        <p cslassName="py-3">Street 1 Rafyl <br /> bank London</p>
-        </div>
-        </div>
+  </div>
+
+  <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/3 hover:cursor-pointer mx-auto flex-col">
+    <div className="items-center justify-center">
+      <FaSearchLocation className="text-6xl text-sky-900 hover:-translate-y-5 duration-500 hover:cursor-pointer" />
+      <div className="px-2">
+        <h1 className="uppercase text-lg font-semibold text-sky-800 mt-2">our address</h1>
+        <p className="py-3">Street 1 Rafyl <br /> bank London</p>
+      </div>
     </div>
+  </div>
 </div>
+
 
 
         <div class="justify-center flex">

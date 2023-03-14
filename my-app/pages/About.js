@@ -18,7 +18,7 @@ export default function About(){
             <div className="lg:w-1/2 flex flex-col justify-center">
                 <div className="lg:px-10">
                 <h1 className="lg:text-4xl md:text-2xl text-sky-900 font-bold">The Next Generation of the Development in Our DNA</h1>
-                <p className="text-lg px-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit nobis velit recusandae a odit consequatur ad, ratione minima. Harum earum odit magnam asperiores qui dolores culpa accusamus doloribus sint maxime. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel consequatur provident aspernatur illum dignissimos eaque libero amet, dolore inventore quisquam accusamus obcaecati laborum nam explicabo a maiores cum placeat in!</p>
+                <p className="text-lg px-2">The Next Generation of Development is in our DNA. We are committed to staying at the forefront of technological advancements and delivering innovative solutions to our clients. Our team of skilled developers and engineers are dedicated to creating custom software solutions that are tailored to the unique needs of each client. We believe in collaboration and communication, working closely with our clients to ensure that their vision is realized through every step of the development process.</p>
                 </div>
             </div>
         </div>
@@ -31,7 +31,7 @@ export default function About(){
     <div class="container px-5 py-24 mx-auto">
     <div class="flex flex-col text-center w-full mb-20">
       <h1 class="text-2xl font-medium title-font mb-4 text-gray-900">OUR TEAM</h1>
-      <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error, hic minima, culpa tenetur voluptatibus exercitationem aperiam rerum tempore ab provident vel doloremque assumenda expedita quae quod aut quidem voluptates possimus.</p>
+      <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Behind our success lies our brilliant team of dedicated professionals, whose expertise, creativity, and passion drive us to achieve excellence in all that we do.</p>
     </div>
     <div class="flex flex-wrap -m-4">
       <div class="p-4 lg:w-1/4 md:w-1/2">
@@ -40,7 +40,7 @@ export default function About(){
           <div class="w-full">
             <h2 class="title-font font-medium text-lg text-gray-900">Abdullah Khan</h2>
             <h3 class="text-gray-500 mb-3">Front End Web Developer</h3>
-            <p class="mb-4">DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
+            <p class="mb-4">Highly skilled in designing and developing user-friendly interfaces that enhance the user experience and drive engagement.</p>
             <span class="inline-flex">
               <Link href={""} class="text-gray-500 hover:text-gray-600">
                <FaFacebook/>              
@@ -61,7 +61,7 @@ export default function About(){
           <div class="w-full">
             <h2 class="title-font font-medium text-lg text-gray-900">Nadia Khan</h2>
             <h3 class="text-gray-500 mb-3">Front End Web Developer</h3>
-            <p class="mb-4">DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
+            <p class="mb-4">Expert in HTML, CSS, and JavaScript, she deliver visually appealing and responsive websites and applications to meet our clients' needs.</p>
             <span class="inline-flex">
               <Link href={""} class="text-gray-500 hover:text-gray-600">
                <FaFacebook/>              
@@ -82,7 +82,7 @@ export default function About(){
           <div class="w-full">
             <h2 class="title-font font-medium text-lg text-gray-900">Shoaib khan</h2>
             <h3 class="text-gray-500 mb-3">Back End Web Developer</h3>
-            <p class="mb-4">DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
+            <p class="mb-4">Our systems run seamlessly and efficiently, ensuring optimal performance and user experience.</p>
             <span class="inline-flex">
               <Link href={""} class="text-gray-500 hover:text-gray-600">
                 <FaFacebook/>
@@ -104,7 +104,7 @@ export default function About(){
           <div class="w-full">
             <h2 class="title-font font-medium text-lg text-gray-900">Rana Jahanzaib</h2>
             <h3 class="text-gray-500 mb-3">Full Stack Developer</h3>
-            <p class="mb-4">DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
+            <p class="mb-4">Thanks to our brilliant full stack developer, we're able to deliver top-notch, customized solutions that meet and exceed our clients' expectations.</p>
             <span class="inline-flex">
               <Link href={""} class="text-gray-500 hover:text-gray-600">
                 <FaFacebook/>
