@@ -61,9 +61,9 @@ export default function Help(){
 
             </div>
           </div>
-          <div className="lg:w-1/2 items-center">
+          <div className="lg:w-1/2 justify-center flex flex-col">
             <img
-            className=""
+            className="lg:h-[1000px] md:h-[700px] sm:h-[500px]"
              src="https://preview.moxcreative.com/vocall/wp-content/uploads/sites/7/2022/02/img_7.png" alt="Img" />
           </div>
         </div>

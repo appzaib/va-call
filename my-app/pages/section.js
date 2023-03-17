@@ -23,7 +23,7 @@ export default function Section(){
         <div className="flex flex-wrap py-20 flex-col lg:flex-row justify-center ">
           <div className="lg:w-1/2 ">
             <img
-            className="object-cover object-center rounded "
+            className="object-cover object-center rounded p-10"
              src="https://preview.moxcreative.com/vocall/wp-content/uploads/sites/7/2022/02/call-center-5.jpg" alt="Img" />
           </div>
           <div className="lg:flex-grow flex flex-wrap flex-col justify-center px-10 lg:w-1/2">
@@ -139,10 +139,12 @@ export default function Section(){
           
               </div>
    <div className="flex flex-wrap py-20 lg:px-20 md:px-0">
-          <div className="lg:max-w-lg lg:w-full md:w-1/2 ">
+          <div className="lg:max-w-lg lg:w-full md:w-1/2">
+            
             <img
             className="object-cover object-center rounded "
              src="https://preview.moxcreative.com/vocall/wp-content/uploads/sites/7/2022/02/img_7.png" alt="Img" />
+          
           </div>
           <div className="lg:ml-10 lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-wrap md:items-start md:text-left mb-16 md:mb-0 items-center px-10">
             <p className="leading-relaxed uppercase font-medium text-amber-600">who we are</p>
