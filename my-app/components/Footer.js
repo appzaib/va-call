@@ -17,7 +17,8 @@ export default function Footer(){
         <span class="ml-3 text-xl">VA Call</span>
       </Link>
       <p class="mt-2 text-sm text-gray-500">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi autem iusto saepe, magnam quod amet rem. Ipsa pariatur corrupti dolorem quas quaerat est eveniet vitae sunt possimus dolores, deserunt accusamus?
+      VA-Call is a comprehensive virtual assistant platform that offers a range of professional services to businesses and individuals.Get in touch with our team of experienced virtual assistants at VA-Call for all your administrative needs and beyond.
+      {/* Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi autem iusto saepe, magnam quod amet rem. Ipsa pariatur corrupti dolorem quas quaerat est eveniet vitae sunt possimus dolores, deserunt accusamus? */}
       </p>
     </div>
     <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
