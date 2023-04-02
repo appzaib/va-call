@@ -7,12 +7,12 @@ export default function Help(){
 
     return(
         <>
-        <div className="h-1/2 bg-no-repeat items-center bg-cover bg-center sm:h-full"
-        style={{backgroundImage: `url('https://preview.moxcreative.com/vocall/wp-content/uploads/sites/7/2022/02/call-center-1.jpg')`}}>
-            <div className="flex-wrap flex-col text-center lg:px-40 pt-52">
-                <h1 className="lg:text-6xl md:text-2xl font-extrabold text-sky-700 lg:mt-96">Help Center</h1>
+        <div className="w-full flex h-screen bg-no-repeat items-center bg-cover bg-center justify-center"
+        style={{backgroundImage: `url('/call9.jpg')`}}>
+            <div className="text-center">
+                <h1 className="lg:text-6xl md:text-2xl font-extrabold text-sky-700 ">Help Center</h1>
                 <p className="text-sky-700 py-3">Our Help Center is dedicated to providing timely and effective solutions to all your queries and concerns.</p>
-          <button class="duration-700 my-7 inline-flex text-white bg-sky-500 border-0 py-3 px-6 focus:outline-none hover:bg-sky-900 hover:{transition-dely: 500ms} rounded-full font-semibold text-lg">Hire Us Now<FaArrowRight className="mt-1 mx-1 "/></button>
+          <button class="duration-500 inline-flex text-white bg-sky-500 border-0 py-3 px-6 focus:outline-none hover:bg-sky-900 rounded-full font-semibold text-lg">Hire Us Now<FaArrowRight className="mt-1 mx-1 "/></button>
 
             </div>
             </div>  
@@ -63,8 +63,8 @@ export default function Help(){
           </div>
           <div className="lg:w-1/2 justify-center flex flex-col">
             <img
-            className="lg:h-[1000px] md:h-[700px] sm:h-[500px]"
-             src="https://preview.moxcreative.com/vocall/wp-content/uploads/sites/7/2022/02/img_7.png" alt="Img" />
+            // className="lg:h-[1000px] md:h-[700px] sm:h-[500px]"
+             src="/call10.avif" alt="Img" />
           </div>
         </div>
 

@@ -16,18 +16,18 @@ export default function Section(){
       </div>
     </div>
     <div class="lg:max-w-lg lg:w-full w-5/6">
-      <img class="object-cover object-center rounded" alt="Img" src="https://preview.moxcreative.com/vocall/wp-content/uploads/sites/7/2022/02/img_9.png"/>
+      <img class="object-cover object-center rounded" alt="Img" src="/call.png"/>
     </div>
   </div>
         </div>
         <div className="flex flex-wrap py-20 flex-col lg:flex-row justify-center ">
-          <div className="lg:w-1/2 ">
+          <div className="lg:w-1/2 w-full">
             <img
             className="object-cover object-center rounded p-10"
-             src="https://preview.moxcreative.com/vocall/wp-content/uploads/sites/7/2022/02/call-center-5.jpg" alt="Img" />
+             src="/call2.jpg" alt="Img" />
           </div>
-          <div className="lg:flex-grow flex flex-wrap flex-col justify-center px-10 lg:w-1/2">
-            <p className="leading-relaxed uppercase font-medium text-amber-600">who we are</p>
+          <div className="flex flex-wrap flex-col justify-center px-10 w-full lg:w-1/2">
+            <p className="py-4 uppercase font-medium text-amber-600">who we are</p>
             <h1 class="sm:text-2xl lg:text-5xl mb-4 font-bold text-sky-900">We communicate to get your business to the next level.</h1>
             <p className="lg:text-lg md:text-base mb-4">Strategic planning and innovation can propel a business to new heights.</p>
             
@@ -38,7 +38,7 @@ export default function Section(){
 
           </div>
         </div>
-            <h1 className="font-bold text-4xl pb-20 text-center text-sky-900">" We are trusted by over 5000 companies."</h1>
+            <h1 className="font-bold text-4xl pb-20 text-center text-sky-900 px-10">We are trusted by over 5000 companies.</h1>
             <div className="bg-sky-900 py-20">
               <div className="lg:ml-10 text-center md:items-start mb-16 md:mb-0 items-center px-10">
             <p className="leading-relaxed uppercase text-amber-600 font-medium">what we offer</p>
@@ -54,7 +54,7 @@ export default function Section(){
     <div class="flex flex-wrap -m-4">
       <div class="p-4 md:w-1/3">
         <div class="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
-          <div class="flex items-center mb-3">
+          <div class="flex flex-col lg:flex-row items-center mb-3">
             <FaMicrophoneAlt className="text-indigo-400 mr-3  w-24 h-24" />
 
               {/* <img className="w-20 mx-3"
@@ -68,7 +68,7 @@ export default function Section(){
       </div>
      <div class="p-4 md:w-1/3">
         <div class="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
-          <div class="flex items-center mb-3">
+          <div class="flex flex-col lg:flex-row items-center mb-3">
               <FaMoneyBillAlt className="text-amber-400 mr-3 w-24 h-24"/>
             <h2 class="text-sky-900 text-2xl font-medium">Debt Collection</h2>
           </div>
@@ -79,7 +79,7 @@ export default function Section(){
       </div>
       <div class="p-4 md:w-1/3">
         <div class="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
-          <div class="flex items-center mb-3">
+          <div class="flex flex-col lg:flex-row items-center mb-3">
             <FaPhoneSlash className="text-sky-400 mr-3  w-24 h-24" />
             <h2 class="text-sky-900 text-2xl font-medium">Inbound Requests</h2>
           </div>
@@ -96,7 +96,7 @@ export default function Section(){
     <div class="flex flex-wrap -m-4 ">
       <div class="p-4 md:w-1/3">
         <div class="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
-          <div class="flex items-center mb-3">
+          <div class="flex flex-col lg:flex-row items-center mb-3">
             <FaHeadset className="text-lime-400 mr-3  w-24 h-24"/> 
             <h2 class="text-sky-900 text-2xl font-medium">Customer Support</h2>
           </div>
@@ -107,7 +107,7 @@ export default function Section(){
       </div>
      <div class="p-4 md:w-1/3">
         <div class="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
-          <div class="flex items-center mb-3">
+          <div class="flex flex-col lg:flex-row items-center mb-3">
               <FaRobot className="text-fuchsia-400 mr-3 w-24 h-24" />
             <h2 class="text-sky-900 text-2xl font-medium">Virtual Assistance</h2>
           </div>
@@ -118,7 +118,7 @@ export default function Section(){
       </div>
       <div class="p-4 md:w-1/3">
         <div class="flex rounded-lg h-full bg-gray-100 p-8 flex-col">
-          <div class="flex items-center mb-3">
+          <div class="flex flex-col lg:flex-row items-center mb-3">
             <FaComment className="text-indigo-400 mr-3 w-24 h-24" />
             <h2 class="text-sky-900 text-2xl font-medium">Live Chat Support</h2>
           </div>
@@ -139,16 +139,16 @@ export default function Section(){
           
               </div>
    <div className="flex flex-wrap py-20 lg:px-20 md:px-0">
-          <div className="lg:max-w-lg lg:w-full md:w-1/2">
+          <div className="w-full lg:w-1/2 flex flex-col ">
             
             <img
             className="object-cover object-center rounded "
-             src="https://preview.moxcreative.com/vocall/wp-content/uploads/sites/7/2022/02/img_7.png" alt="Img" />
+             src="/call3.png" alt="Img" />
           
           </div>
-          <div className="lg:ml-10 lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-wrap md:items-start md:text-left mb-16 md:mb-0 items-center px-10">
-            <p className="leading-relaxed uppercase font-medium text-amber-600">who we are</p>
-            <h1 class="sm:text-2xl lg:text-5xl mb-4 font-bold text-sky-900">We communicate to get your business to the next level.</h1>
+          <div className="g:flex-grow md:w-1/2 flex flex-wrap md:items-start md:text-left mb-16 md:mb-0 items-center px-10">
+            <p className="eading-relaxed uppercase font-medium text-amber-600">who we are</p>
+            <h1 class="sm:text-2xl md:text-3xl lg:text-4xl mb-4 font-bold text-sky-900">We communicate to get your business to the next level.</h1>
             <div className="flex flex-wrap">
               <div className="w-1/2">
                 <h1 className="text-xl font-semibold m-3"><FaCheck className="mr-2 inline-flex rounded-lg p-1 bg-indigo-400 text-white"/>Professional Staff</h1>

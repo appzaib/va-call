@@ -13,7 +13,7 @@ export default function About(){
         </div>
         <div className="lg:flex lg:flex-wrap lg:px-10 py-10 h-auto">
             <div className="lg:w-1/2">
-                    <img className="rounded object-cover" src="https://themes.webdevia.com/digitalo-creative-digital-agency-wordpress-theme/wp-content/uploads/2017/12/blog-3--1000x500.jpg" alt="Img" />
+                    <img className="rounded object-cover" src="/call4.jpg" alt="Img" />
             </div>
             <div className="lg:w-1/2 flex flex-col justify-center">
                 <div className="lg:px-10">
@@ -36,7 +36,7 @@ export default function About(){
     <div class="flex flex-wrap -m-4">
       <div class="p-4 lg:w-1/4 md:w-1/2">
         <div class="h-full flex flex-col items-center text-center">
-          <img alt="team" class="flex-shrink-0 rounded-3xl w-full h-56 object-cover object-center mb-4" src="https://avatars.githubusercontent.com/u/82768953?v=4"/>
+          <img alt="team" class="flex-shrink-0 rounded-3xl w-full h-56 object-cover object-center mb-4" src="/call5.png"/>
           <div class="w-full">
             <h2 class="title-font font-medium text-lg text-gray-900">Abdullah Khan</h2>
             <h3 class="text-gray-500 mb-3">Front End Web Developer</h3>
@@ -57,7 +57,7 @@ export default function About(){
       </div>
       <div class="p-4 lg:w-1/4 md:w-1/2">
         <div class="h-full flex flex-col items-center text-center">
-          <img alt="team" class="flex-shrink-0 rounded-3xl w-full h-56 object-cover object-center mb-4" src="https://avatars.githubusercontent.com/u/83128763?s=70&v=4"/>
+          <img alt="team" class="flex-shrink-0 rounded-3xl w-full h-56 object-cover object-center mb-4" src="/call6.png"/>
           <div class="w-full">
             <h2 class="title-font font-medium text-lg text-gray-900">Nadia Khan</h2>
             <h3 class="text-gray-500 mb-3">Front End Web Developer</h3>
@@ -78,7 +78,7 @@ export default function About(){
       </div>
       <div class="p-4 lg:w-1/4 md:w-1/2">
         <div class="h-full flex flex-col items-center text-center">
-          <img alt="team" class="flex-shrink-0 rounded-3xl w-full h-56 object-cover object-center mb-4" src="https://avatars.githubusercontent.com/u/44477943?s=70&v=4"/>
+          <img alt="team" class="flex-shrink-0 rounded-3xl w-full h-56 object-cover object-center mb-4" src="/call7.jpg"/>
           <div class="w-full">
             <h2 class="title-font font-medium text-lg text-gray-900">Shoaib khan</h2>
             <h3 class="text-gray-500 mb-3">Back End Web Developer</h3>
@@ -100,7 +100,7 @@ export default function About(){
       </div>
       <div class="p-4 lg:w-1/4 md:w-1/2">
         <div class="h-full flex flex-col items-center text-center">
-          <img alt="team" class="flex-shrink-0 rounded-3xl w-full h-56 object-cover object-center mb-4" src="https://avatars.githubusercontent.com/u/28682772?v=4"/>
+          <img alt="team" class="flex-shrink-0 rounded-3xl w-full h-56 object-cover object-center mb-4" src="/call8.jpg"/>
           <div class="w-full">
             <h2 class="title-font font-medium text-lg text-gray-900">Rana Jahanzaib</h2>
             <h3 class="text-gray-500 mb-3">Full Stack Developer</h3>
