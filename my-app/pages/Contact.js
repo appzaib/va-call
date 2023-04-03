@@ -12,19 +12,19 @@ export default function Contact(){
             <h1 className="text-5xl py-10 font-semibold text-sky-900">Contact Us</h1>
             <h1 className="text-4xl pt-20 font-semibold text-sky-900">Get In Touch</h1>
         </div>
-        <div className="container mx-auto px-4 max-w-full flex flex-wrap py-10 justify-center items-center">
+        <div className="flex flex-col lg:flex-row flex-wrap py-10">
   <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/3 hover:cursor-pointer mx-auto flex-col">
-    <div className="items-center justify-center">
+    <div className="flex justify-center py-5 flex-col items-center">
       <FaEnvelopeOpen className="text-6xl text-sky-900 hover:-translate-y-5 duration-500" />
       <div className="px-2">
         <h1 className="uppercase text-lg font-semibold text-sky-800 mt-2">email address</h1>
-        <p className="py-3">Abdullah@123</p>
+        <p className="py-3">Abdullah@123.com</p>
       </div>
     </div>
   </div>
 
   <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/3 hover:cursor-pointer mx-auto flex-col">
-    <div className="items-center justify-center">
+    <div className="flex justify-center py-5 flex-col items-center">
       <FaMobileAlt className="text-6xl text-sky-900 hover:-translate-y-5 duration-500 hover:cursor-pointer" />
       <div>
         <h1 className="uppercase text-lg font-semibold text-sky-800 mt-2">Phone No</h1>
@@ -34,11 +34,11 @@ export default function Contact(){
   </div>
 
   <div className="w-full sm:w-1/2 md:w-1/3 lg:w-1/3 hover:cursor-pointer mx-auto flex-col">
-    <div className="items-center justify-center">
+    <div className="flex justify-center py-5 flex-col items-center">
       <FaSearchLocation className="text-6xl text-sky-900 hover:-translate-y-5 duration-500 hover:cursor-pointer" />
       <div className="px-2">
         <h1 className="uppercase text-lg font-semibold text-sky-800 mt-2">our address</h1>
-        <p className="py-3">Street 1 Rafyl <br /> bank London</p>
+        <p className="py-3 capitalize">Street 1 People colony <br /> Attock Pakistan</p>
       </div>
     </div>
   </div>

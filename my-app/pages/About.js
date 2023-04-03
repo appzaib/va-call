@@ -126,7 +126,7 @@ export default function About(){
   </div>
     </div> 
 
-            <div className="bg-red-500 h-max w-full text-center py-20">
+            <div className="bg-sky-200 h-max w-full text-center py-20">
             <h1 className="font-bold py-20 text-4xl text-center text-sky-900">Have any projects in your minds? <br /> Lets talk about it.</h1>
             <button class="inline-flex text-white bg-sky-500 border-0 py-3 px-6 focus:outline-none hover:bg-sky-900 hover:{transition-dely: 500ms} rounded-full font-semibold text-lg ">Register Now</button>
             </div>
