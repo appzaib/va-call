@@ -12,3 +12,22 @@ export default function App({ Component, pageProps }) {
 </>
   )
 }
+
+
+// {
+//   "hosting": {
+//     "public": "out",
+//     "site": "va-call",
+//     "ignore": [
+//       "firebase.json",
+//       "**/.*",
+//       "**/node_modules/**"
+//     ],
+//     "rewrites": [
+//       {
+//         "source": "**",
+//         "destination": "/index.html"
+//       }
+//     ]
+//   }
+// }
